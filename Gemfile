@@ -8,7 +8,7 @@ gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'sinatra-activerecord'
 
-gem 'puma'
+gem 'thin'
 gem 'tux'
 
 # These gems are only installed when run as `bundle install --without production`
