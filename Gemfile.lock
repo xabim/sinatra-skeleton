@@ -31,6 +31,7 @@ GEM
     multi_json (1.14.1)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
+    opencage-geocoder (2.1.2)
     pg (1.2.3)
     pry (0.13.0)
       coderay (~> 1.1)
@@ -107,6 +108,7 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport
+  opencage-geocoder
   pg
   pry
   rake
@@ -119,3 +121,6 @@ DEPENDENCIES
   thin
   tux
   webmock
+
+BUNDLED WITH
+   2.1.4

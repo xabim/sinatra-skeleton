@@ -11,6 +11,8 @@ gem 'sinatra-activerecord'
 gem 'thin'
 gem 'tux'
 
+gem 'opencage-geocoder'
+
 # These gems are only installed when run as `bundle install --without production`
 group :development, :test do
   gem 'rspec'
