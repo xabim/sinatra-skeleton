@@ -123,6 +123,3 @@ DEPENDENCIES
   thin
   tux
   webmock
-
-BUNDLED WITH
-   2.1.4
