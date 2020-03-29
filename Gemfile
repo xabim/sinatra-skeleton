@@ -10,6 +10,7 @@ gem 'sinatra-activerecord'
 
 gem 'thin'
 gem 'tux'
+gem 'dotenv'
 
 gem 'opencage-geocoder'
 

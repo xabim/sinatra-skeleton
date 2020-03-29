@@ -5,8 +5,10 @@ end
 
 require_relative '../lib/darksky'
 require 'opencage/geocoder'
+require 'dotenv'
 
 get '/:address' do
+  Dotenv.load
   geocoder = OpenCage::Geocoder.new(api_key: ENV['GEOCODER_API_KEY'])
 
   results = geocoder.geocode(params['address'])
