@@ -28,6 +28,9 @@ I've used [WebMock](https://rubygems.org/gems/webmock) to stubb HTTP requests to
 
 Secrets as API keys are loaded from environment variables to the same artifact in several environments to store the confiration in the environment [III. Config](config)
 
-For this exercise [dotenv](https://rubygems.org/gems/dotenv) is in use, but depending on the strategy to deploy the application a `.env` file must be created in the home of the application.
+```
+DARKSKY_API_KEY=
+GEOCODER_API_KEY=
+```
 
 Also, if deployed via docker environment variables can be passed as seen in `docker-compose.test.yml` with env file `test.env`
